@@ -1,0 +1,16 @@
+#box
+{
+    position: relative;
+    top: 50px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(2, 15, 15);
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}

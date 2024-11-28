@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GWA CALCULATOR</title>
+    <link rel="stylesheet" href="gwaCalculator.css">
+</head>
+<body>
+       <div id = "panelCenter">
+          <label id="label">GWA CALCULATOR</label>
+          <label id="subject" for="subjectUserInput">Enter Number of Subjects</label>
+          <input type="text" id="subjectUserInput">
+        <button id="generateButton">Generate</button>
+
+     <div id="unitsAndGradeHolder">
+     <div id="unitGrade">
+        <label id="subjectNumber" class="labelUnit">1.</label>
+        <label for="unitId" class="labelUnit">Unit</label>
+        <input type="text" id="unitId" class="userInputTextBox">
+        <label for="finalGradeId" class="labelUnit">Sem Grade</label>
+        <input type="text" id="finalGradeId" class="userInputTextBox">
+     </div>
+      <button id="calculateButton">Calculate</button>
+      <label id="userGWA"></label>
+      <label id="userAverage"></label>
+     </div>
+       </div>
+
+
+       
+       <script src="gwaCalculator.js"></script>
+</body>
+</html>

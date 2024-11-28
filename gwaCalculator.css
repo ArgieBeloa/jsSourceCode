@@ -1,0 +1,106 @@
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#panelCenter
+{
+      background-color: #daecf0;
+      width: 500px;
+      height: 600px;
+      border-radius: 40px;
+     position: relative;
+     /* display: block;
+     max-width: 100%; */
+}
+#label
+{
+   position: absolute;
+   top: 50px;
+   left: 180px;
+  font-family: Arial Black, Sans-serif;
+}
+
+#subject
+{
+   position: absolute;
+   top: 100px;
+   left: 16px;
+   font-size: small;
+   font-family: Arial Black, Sans-serif;
+}
+#subjectUserInput
+{
+    position: absolute;
+    top: 97px;
+    left: 200px;
+    width: 100px;
+    height: 20px;
+}
+#generateButton
+{
+    position: absolute;
+    top: 98px;
+    left: 315px;
+    width: 95px;
+    height: 25px;
+    background-color: #F85046;
+    border-radius: 7px;
+}
+#unitsAndGradeHolder
+{
+    background-color: #FFF6E9;
+    width: 480px;
+    height: 450px;
+    border: 2px solid;
+    border-radius: 20px;
+    top: 135px;
+    left: 10px;
+    position: relative;
+    
+}
+#unitGrade
+{
+    position: absolute;
+   
+    top: 15px;
+    left:10px;
+}
+.labelUnit
+{
+    position: relative;
+    left: 50px;
+}
+.userInputTextBox
+{  
+    position: relative;
+    width: 100px;
+    height: 20px;
+    left: 50px;
+    border-radius: 6px;
+}
+#calculateButton
+{
+    position: absolute;
+    top: 400px;
+    left: 190px;
+    width: 95px;
+    height: 25px;
+    background-color: #F85046;
+    border-radius: 7px;
+}
+#userGWA
+{
+    position: absolute;
+    top: 405px;
+    left: 365px;
+}
+#userAverage
+{
+    position: absolute;
+    top: 405px;
+    left: 20px;
+}

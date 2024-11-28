@@ -1,0 +1,249 @@
+.tile
+{
+        width: 400px;
+        height: 500px;
+        position: fixed;
+        top: 30px;
+        bottom: 30px;
+        left: 10%;
+        right: 10%;
+        background-color: rgba(0, 0, 0, 0.363);
+        border-radius: 20px;     
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        align-items: center;
+        justify-content: center;
+    
+}
+#title
+{
+     font: 1em Arial Black;
+     margin-left: 30%;
+}
+#randomTitle
+{
+    font: 1em Arial Black;
+    margin-left: 20%;
+    
+}
+.randomBox
+{
+       width: 50px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.767);
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: 5px;
+        margin-left: 12%;
+        display: flex;
+        justify-content: center; /* Horizontally center the inner div */
+        align-items: center; /* Vertically center the inner div */
+        position: relative;
+}
+.randomBoxT
+{
+    
+        width: 50px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.767);
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: 5px;
+        margin-left: 12%;
+        display: flex;
+        justify-content: center; /* Horizontally center the inner div */
+        align-items: center; /* Vertically center the inner div */
+        position: relative;
+}
+
+.dot
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%
+}
+#dot_2A
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+#dot_2B
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 40px;
+}
+#dot_3A
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+#dot_3B
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+#dot_3C
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 65px;
+    left: 40px;
+}
+#dot_4A
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+#dot_4B
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 55px;
+}
+#dot_4C
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 15px;
+}
+#dot_4D
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 55px;
+}
+#dot_5A
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+#dot_5B
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+}
+#dot_5C
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 15px;
+}
+#dot_5D
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 65px;
+}
+#dot_5E
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 42px;
+    left: 35x;
+}
+#dot_6E
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
+#dot_6F
+{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 65px;
+}
+#dotHolder
+{
+    
+    width: 610px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.767);
+    display: flex;
+    border-radius: 20px;
+    /* display: none; */
+    margin-left: 120%;
+}
+#rollbutton
+{
+  padding: 10px 20px; /* Set padding for the button */
+  border: none; /* Remove default button border */
+  background-color: #4CAF50; /* Set background color */
+  color: white; /* Set text color */
+  text-align: center; /* Center the text within the button */
+  text-decoration: none; /* Remove default underline */
+  display: inline-block; /* Make the button a block-level element */
+  font-size: 15px; /* Set font size */
+  border-radius: 10px; /* Add rounded corners */
+  margin-top: 3%;
+  margin-left: 15%;
+}
